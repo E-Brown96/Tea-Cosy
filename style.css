@@ -1,0 +1,215 @@
+* {
+    background-color: black;
+}
+.header {
+    display: flex;
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+#header {
+    justify-content: space-between;
+}
+.logo {
+    opacity: 0.9;
+}
+.logo img {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.menu {
+    color: seashell;
+    padding-right: 25px;
+    word-spacing: 10px;
+}
+.menu ul li {
+    display: inline-block;
+    text-decoration: underline;
+    font-size: 22px;
+    opacity: 0.9;
+    font-family: Helvetica, sans-serif;
+}
+
+.jumbotron {
+    background-image: url("img-mission-background.jpeg");
+    height: 700px;
+    width: 1200px;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    padding-top: 69px;
+    text-align: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+#jumbotron {
+  flex-direction: column;
+  justify-content: center;
+}
+.jumbotron h2 {
+    font-size: 30px;
+    align-content: center;
+    margin: 0;
+}
+.jumbotron h4 {
+    font-size: 24px;
+    align-content: center;
+    margin: 0;
+}
+.Teat {
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+.Teat h4 {
+    font-size: 22px;
+}
+.Teat h2 {
+    font-size: 30px;
+}
+.Tea {
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Teas {
+    display: flex;
+    padding: 5px;
+}
+#Teas {
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: space-around;
+}
+.Teaz {
+    display: flex;
+    padding: 5px;
+}
+#Teaz {
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: space-around;
+}
+.Teaz img{
+    max-height: 200px;
+    max-width: 300px;
+}
+.Teas img{
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.locations {
+    color: seashell;
+    background-image: url("img-locations-background.webp");
+    height: 500px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+#locations {
+    flex-direction: column;
+    justify-content: center;
+}
+.block {
+    text-align: center;
+}
+.details {
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    display: inline-block;
+}
+.details h4 {
+  font-size: 30px;
+}
+.details h5 {
+  font-size: 18px;
+}
+.details p {
+    font-size: 16px;
+}
+.copyright {
+    color: seashell;
+    text-align: left;
+    margin-left: 20px;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+.local {
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    background-color: unset;
+    margin-bottom: 0px;
+    padding-bottom: 15px;;
+}
+#local {
+    justify-content: center;
+
+}
+.downtown {
+    color: seashell;
+    display: flex;
+    background-color: unset;
+    line-height: 20px;
+}
+#downtown {
+    justify-content: space-around;
+}
+.dt {
+    font-family: Helvetica, sans-serif;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.dt h3 {
+    font-size: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.dt p{
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+}
+.East-Bayside {
+    font-family: Helvetica, sans-serif;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.East-Bayside h3 {
+    font-size: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.East-Bayside p {
+    list-style-type: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+}
+.Oakdale {
+    font-family: Helvetica, sans-serif;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+.Oakdale h3 {
+    font-size: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.Oakdale p {
+    list-style-type: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+}
